@@ -14,10 +14,8 @@
         <h1>To Do List</h1>
     </div>
     <div id="container">
-        <input type="text" v-model="newTask" placeholder="inserisci nuovo task">
+        <input type="text" v-model="newTask.text" placeholder="inserisci nuovo task">
         <button id="bottone" @click="aggiungiTask()">aggiungi impegno</button>
-
-
 
         <ul>
             <li v-for="task, i in tasks" :class="task.done ? `done` : `` " :key="i">
