@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Yuji Boku', serif;
+}
+#title{
+    margin: 0 auto;
+    text-align: center;
+}
+#container{
+    height: 100vh;
+    text-align: center;
+    
+}
+
+#contain-list{
+    display: flex;
+    height: 80%;
+    width: 500px;
+}
+#urgente{
+    width: 100%;
+    height: 100%;
+}
+
+li{
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+#bottone{
+    font-size: 20px;
+}
