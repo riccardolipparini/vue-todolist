@@ -2,7 +2,7 @@ var toDo = new Vue(
     {
         el: `#container`,
         data:{
-            newTask=[{
+            newTask:[{
                 text: "",
                 done: false
             }],
